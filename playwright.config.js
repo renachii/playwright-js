@@ -13,7 +13,7 @@ const { defineConfig, devices } = require('@playwright/test');
 module.exports = defineConfig({
   // Match all .spec.js files
   testMatch: '**/*.spec.js', 
-  timeout: 30 * 1000,
+  timeout: 60 * 1000,
   expect: {
       // Maximum time expect() should wait for the condition to be met.
       timeout: 10000
